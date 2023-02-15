@@ -1,13 +1,13 @@
 import './App.css';
-import Header from './Components/Header'
-import Sidebar from './Components/Sidebar';
-import Feed from './Components/Feed';
-import Login from './Components/Login';
+import Header from './components/Header'
+import Sidebar from './components/Sidebar';
+import Feed from './components/Feed';
+import Login from './components/Login';
 import { useDispatch, useSelector } from "react-redux";
 import { login, logout, selectUser } from "./features/userSlice";
 import { useEffect } from 'react';
 import { auth } from './firebase';
-import Widgets from './Components/Widgets';
+import Widgets from './components/Widgets';
 
 function App() {
   const user = useSelector(selectUser);

@@ -26,7 +26,6 @@ function Widgets() {
         </div>
         {newsArticle("Who is Nathan Cai?", "Top news - 9099 readers")}
         {newsArticle("Coronavirus: US updates", "Top news - 989 readers")}
-        {newsArticle("Bitcoin breaks ATH!", "Crypto - 3845 readers")}
         {newsArticle("Learn redux!", "Code - 7345 readers")}
         {newsArticle("Hire me!", "Top news - 1111 readers")}
     </div>
